@@ -131,7 +131,7 @@ L'appel de la fonction avec le dictionnaire de réponses donné dans la question
 }
 ```
 
-En utilisant la fonction `nb_erreurs`, calculer le pourcentage d'erreur de cette méthode par rapport à la prédiction du choixpeau pour les élèves de première année. On prendra comme ensemble de références celui donné dans le fichier `houses_ref.json`.
+En utilisant la fonction `nb_erreurs`, calculer le pourcentage d'erreur de cette méthode par rapport à la prédiction du choixpeau pour les élèves de première année. On prendra comme ensemble de références celui donné dans le fichier `houses_ref.json`. Les réponses des élèves aux dix questions se trouvent dans le fichier `questionnaire_premiere_annee_10q.txt`.
 
 Cette méthode est-elle meilleure que celle implémentée dans la SAÉ S1.01 ?
 
