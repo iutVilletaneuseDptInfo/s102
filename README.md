@@ -78,6 +78,7 @@ $$
   \sqrt{\sum_{i = 1}^{10} (var_i)^2}  
 $$
 où $var_i$ représente la différence des deux réponses à la question numéro $i$. Devant les regards ahuris de tous les magiciens, il montre comment calculer la similitude des réponses entre Lisa Fischer et Donna Weiss (en utilisant leurs réponses données en exemple) :
+
 $$
 \sqrt{(7-4)^2 + (4 - 6)^2 + (8 - 2)^2 + \dots + (5-9)^2 } = 10.862780491200215
 $$
