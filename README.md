@@ -77,6 +77,7 @@ Il s'agit de définir si deux réponses sont proches ! Le professeur Flitwick a 
 $$
   \sqrt{\sum_{i = 1}^{10} (var_i)^2}  
 $$
+
 où $var_i$ représente la différence des deux réponses à la question numéro $i$. Devant les regards ahuris de tous les magiciens, il montre comment calculer la similitude des réponses entre Lisa Fischer et Donna Weiss (en utilisant leurs réponses données en exemple) :
 
 $$
