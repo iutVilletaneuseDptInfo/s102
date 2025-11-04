@@ -73,6 +73,7 @@ Par la suite, on appellera une *réponse* (*answer* en anglais) un tableau de 10
 ### Question 2
 
 Il s'agit de définir si deux réponses sont proches ! Le professeur Flitwick a lu dans un vieux grimoire que l'on peut utiliser la distance Euclidienne pour mesurer la similarité entre deux réponses. Cela revient à imaginer qu'une réponse est un point d'un espace multidimensionnel (en l'occurrence de dimension 10) et de mesurer la distance entre deux points correspondant à deux réponses ! Comme personne ne comprend rien, il écrit directement la formule mathématique avec sa baguette magique : 
+
 $$
   \sqrt{\sum_{i = 1}^{10} (var_i)^2}  
 $$
