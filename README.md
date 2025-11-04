@@ -90,7 +90,7 @@ Définir la fonction `Euclidean_distance` prenant en paramètre deux réponses e
 
 ### Question 3
 
-Les fantômes des fondateurs des maisons ont répondu. Leurs réponses sont stockées dans un tableau de dictionnaires : chaque case du tableau  correspond à une réponse qui est un dictionnaire avec deux clés : `answer` et `house`. La valeur associée à `answer` est une réponse (tableau de 10 entiers) et celle associée à `house` est le nom de la maison à laquelle appartient celui qui a donné cette réponse. Les réponses des fondateurs sont donc stockées sous la forme : 
+Les fantômes des fondateurs des maisons ont répondu. Leurs réponses sont stockées dans un tableau de dictionnaires. Chaque case de ce tableau  correspond à une réponse qui est un dictionnaire avec deux clés : `answer` et `house`. La valeur associée à `answer` est une réponse (tableau de 10 entiers) et celle associée à `house` est le nom de la maison à laquelle appartient celui qui a donné cette réponse. Les réponses des fondateurs sont donc stockées sous la forme : 
 ```python
 [   
     {
@@ -131,7 +131,9 @@ L'appel de la fonction avec le dictionnaire de réponses donné dans la question
 }
 ```
 
-En utilisant la fonction `nb_erreurs`, calculer le pourcentage d'erreur de cette méthode par rapport à la prédiction du choixpeau pour les élèves de première année. Cette méthode est-elle meilleure que celle implémentée dans la SAÉ S1.01 ?
+En utilisant la fonction `nb_erreurs`, calculer le pourcentage d'erreur de cette méthode par rapport à la prédiction du choixpeau pour les élèves de première année. On prendra comme ensemble de références celui donné dans le fichier `houses_ref.json`.
+
+Cette méthode est-elle meilleure que celle implémentée dans la SAÉ S1.01 ?
 
 ### Question 5
 
