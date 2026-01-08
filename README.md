@@ -174,14 +174,14 @@ Par exemple, l'appel de la fonction avec comme valeur pour `neigbors` l'ensemble
   ```python
   {
     "house": "Serdaigle",
-    "anwser": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
+    "answer": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
   }
   ```
 - 4 si `ref` vaut :
   ```python
   {
     "house": "Serdaigle",
-    "anwser": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    "answer": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
   }
   ```
 
@@ -203,7 +203,7 @@ Par exemple, l'appel de la fonction avec comme valeur pour `neigbors` l'ensemble
 ```python
   {
     "house": "Serdaigle",
-    "anwser": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    "answer": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
   }
 ```
 doit ajouter `ref` à la fin du tableau `neighbors` uniquement si `k` a une valeur supérieure ou égale à 5.
